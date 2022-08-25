@@ -1,0 +1,16 @@
+
+#include<stdio.h>
+void main()
+{
+	char c[20];
+	int i;
+	printf("Enter any integer\n");
+	gets(c);
+	for(i=0;c[i]!='\0';i++)
+	{
+		c[i]=c[i]-32;
+		c++;
+		c[i]=c[i]+32;
+	}
+	puts(c);
+}
