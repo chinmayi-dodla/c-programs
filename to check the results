@@ -1,0 +1,14 @@
+#Program To check student is pass or fail
+sno=int(input("Enter the student number:"))
+name=input("Enter the student name:")
+group=input("Enter the group name:")
+s1=int(input("Enter the first subject Marks:"))
+s2=int(input("Enter the second subject Marks:"))
+s3=int(input("Enter the third subject Marks:"))
+if(s1>=35 and s2>=35 and s3>=35):
+    print("PASS")
+else:
+    print("FAIL")
+print("Sno:",sno)
+print("Name:",name)
+print("Group:",group)
